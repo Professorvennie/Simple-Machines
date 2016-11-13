@@ -1,0 +1,17 @@
+{
+  "forge_maker": 1,
+  "defaults": {
+    "model": "simplemachines:basicFurnace"
+  },
+  "variants": {
+    "facing=north,working=false": { "model": "simplemachines:basicFurnace" },
+    "facing=south,working=false": { "model": "simplemachines:basicFurnace", "y": 180 },
+    "facing=west,working=false":  { "model": "simplemachines:basicFurnace", "y": 270 },
+    "facing=east,working=false":  { "model": "simplemachines:basicFurnace", "y": 90 },
+    "facing=north,working=true": { "model": "simplemachines:basicFurnace_On" },
+    "facing=south,working=true": { "model": "simplemachines:basicFurnace_On", "y": 180 },
+    "facing=west,working=true":  { "model": "simplemachines:basicFurnace_On", "y": 270 },
+    "facing=east,working=true":  { "model": "simplemachines:basicFurnace_On", "y": 90 }
+  }
+}
+
